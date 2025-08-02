@@ -31,7 +31,7 @@ void Renderer::clear() {
 }
 
 void Renderer::draw(const Chip8 &chip8) {
-    static auto lastDisplay = chip8.getDisplay(); // remembers last frame
+    static auto lastDisplay = chip8.getDisplay();
 
     const auto &display = chip8.getDisplay();
     clear();
@@ -47,6 +47,6 @@ void Renderer::draw(const Chip8 &chip8) {
     }
 
     SDL_UpdateWindowSurface(window);
-    lastDisplay = display; // update stored frame
+    lastDisplay = display;
 }
 
