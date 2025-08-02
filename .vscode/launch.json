@@ -25,7 +25,7 @@
       "name": "Debug windows",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/win/main.exe",
+      "program": "${workspaceFolder}/build/win/chip8.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
